@@ -121,3 +121,82 @@
         text-decoration: none;
     
     }
+    @media (min-width:374px){
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 75%;
+            width: 80%;
+            margin: auto;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .social-links{
+            display: grid;
+            list-style: none;
+            padding: 15px;
+            gap: 1rem;
+            
+        }
+        .social-links a{
+            display: block;
+            background-color: var(--Grey);
+            color: var(--White);
+            width: 100%;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            height: 2rem;
+            padding-top: 0.5rem;
+        }
+        
+    }
+    
+    @media (max-width: 431px) {
+        body{
+            background-color: rgb(79, 112, 112);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 75%;
+            width: 80%;
+            margin: auto;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+            /* border:  1px salmon solid; */
+        }
+        .social-links{
+            display: grid;
+            list-style: none;
+            padding: 15px;
+            gap: 1rem;
+            
+        }
+        .social-links a{
+            display: block;
+            background-color: var(--Grey);
+            color: var(--White);
+            width: 100%;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            height: 2rem;
+            padding-top: 0.5rem;
+        }
+        .head-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid yellow; */
+            gap: 2rem;
+            background-color: var(--Dark-Grey);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-top: 5rem;
+            
+        }
+    }
