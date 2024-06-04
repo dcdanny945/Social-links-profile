@@ -154,9 +154,9 @@
     }
     
     @media (max-width: 431px) {
-        body{
+        /* body{
             background-color: rgb(79, 112, 112);
-        }
+        } */
         .container{
             display: flex;
             flex-direction: column;
